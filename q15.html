@@ -1,13 +1,21 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <title>Média do Aluno</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificação de Nadador</title>
 </head>
-
 <body>
-    <script src="Js/scripts.js"></script>
+    <h1>Classificação de Nadador</h1>
+    
+    <label for="idade">Digite a idade do nadador:</label>
+    <input type="number" id="idade" min="0">
+    <br><br>
 
+    <button onclick="classificarNadador()">Classificar</button>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
